@@ -9,15 +9,15 @@ Parameter
    a(i) 'WTI capacity of supply center i (bbl)'
         / Cushing     30
           NewOrleans  0
- Houston     200/
+          Houston     200/
 
    b(i) 'Brent capacity of supply center i (bbl)'
         / Cushing     20
           NewOrleans  500
- Houston     0/;
+          Houston     0/;
 
    c(j) 'oil demand at refinery location (bbl)'
-/ Tulsa       500 /;
+      / Tulsa       500 /;
 
 Table d(i,j) 'cost of transportation of unit barrel of oil from supply center to refinery ($/bbl)'
               Tulsa
